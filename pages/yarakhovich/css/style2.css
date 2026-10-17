@@ -82,8 +82,7 @@ a {
   font-size: 12px;
   background: url(../../../images/rol.gif) no-repeat left bottom;
   text-indent: 40px;
-  /* Добавляем плавное изменение св-ва */
-  transition: text-indent 0.3s ease;
+  transition: background-position 0.3s ease, text-indent 0.3s ease;
 }
 
 a:visited {
@@ -95,12 +94,12 @@ a:link {
 }
 
 a:hover {
-  background-position: right bottom;
+  background-position: right calc(11 * 10%) bottom;
+  text-indent: 60px;
   color: white;
   font-weight: bold;
-  text-indent: 45px;
 }
-a:aktive {
+a:active {
   color: black;
   font-weight: bold;
   text-decoration: underline;

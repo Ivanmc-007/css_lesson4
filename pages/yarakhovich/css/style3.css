@@ -76,7 +76,6 @@ ul li {
   display: inline;
   float: left;
   font-size: 12px;
-  /* letter-spacing: 0.1px; */
 }
 
 a {
@@ -101,7 +100,7 @@ a:link {
 a:hover {
   color: #333333;
 }
-a:aktive {
+a:active {
   color: black;
   font-weight: bold;
   text-decoration: underline;
