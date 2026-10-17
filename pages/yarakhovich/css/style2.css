@@ -82,6 +82,8 @@ a {
   font-size: 12px;
   background: url(../../../images/rol.gif) no-repeat left bottom;
   text-indent: 40px;
+  /* Добавляем плавное изменение св-ва */
+  transition: text-indent 0.3s ease;
 }
 
 a:visited {
@@ -96,6 +98,7 @@ a:hover {
   background-position: right bottom;
   color: white;
   font-weight: bold;
+  text-indent: 45px;
 }
 a:aktive {
   color: black;
