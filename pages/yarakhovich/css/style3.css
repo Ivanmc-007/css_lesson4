@@ -27,7 +27,6 @@ p {
   width: 720px;
   background-color: #fff;
   text-align: justify;
-  padding-bottom: 52px;
 }
 
 #header {
@@ -52,6 +51,7 @@ p {
   overflow: hidden;
   position: relative;
   z-index: 2;
+  padding-bottom: 52px;
 }
 
 #content p:first-of-type::first-letter {
